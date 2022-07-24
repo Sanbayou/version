@@ -5,4 +5,5 @@ sqlserver->Windows->cmd
   sqlcmd -E -Q "SELECT @@VERSION"
 postgreSQL->linux->postgres
   psql --version
-  
+rabbitMq->linux
+  rabbitmqctl status | grep rabbit
