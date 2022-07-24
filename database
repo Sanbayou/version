@@ -1,0 +1,8 @@
+
+redis->linux
+  src/redis-server --version
+sqlserver->Windows->cmd
+  sqlcmd -E -Q "SELECT @@VERSION"
+postgreSQL->linux->postgres
+  psql --version
+  
