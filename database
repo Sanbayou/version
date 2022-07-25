@@ -7,3 +7,5 @@ postgreSQL->linux->postgres
   psql --version
 rabbitMq->linux
   rabbitmqctl status | grep rabbit
+oracle->linux
+  su - oracle -c 'sqlplus -s / as sysdba'
